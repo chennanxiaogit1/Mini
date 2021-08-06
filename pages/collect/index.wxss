@@ -1,0 +1,69 @@
+/* pages/collect/index.wxss */
+
+
+.collect_main {
+    background-color: #f3f4f6;
+}
+
+.collect_title {
+    padding: 40rpx 0;
+}
+
+.collect_tips {
+    border: 1rpx solid #ccc;
+    padding: 15rpx;
+    margin-left: 25rpx;
+    background-color: #fff;
+}
+
+.active {
+    color: #eb4506;
+    border-color: #eb4506;
+}
+
+.collect_content {
+    background-color: #fff;
+}
+
+.frist_tab {
+    display: flex;
+    flex-direction: column;
+}
+
+.frist_tab .goods_item {
+    display: flex;
+    border-bottom: 1rpx solid #ccc;
+}
+
+.frist_tab .goods_img_wrap {
+    padding: 10rpx;
+    flex: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.frist_tab .goods_img_wrap image {
+    width: 90%;
+}
+
+.frist_tab .goods_info_wrap {
+    padding: 10rpx;
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.frist_tab .goods_info_wrap .goods_name {
+    display: -webkit-box;
+    overflow: hidden;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+}
+
+.frist_tab .goods_info_wrap .goods_price {
+    color: #eb4506;
+    font-size: 30rpx;
+
+}

@@ -1,0 +1,107 @@
+Page {
+    padding-bottom: 90rpx;
+}
+
+swiper {
+    height: 70vw;
+}
+
+swiper-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+swiper image {
+    width: 70%;
+}
+
+.goods_price {
+    padding: 15rpx;
+    color: #eb4506;
+    font-size: 32rpx;
+    font-weight: 600;
+}
+
+.goods_name_row {
+    display: flex;
+    border-top: 5rpx solid #dedede;
+    border-bottom: 5rpx solid #dedede;
+    padding: 10rpx 0;
+}
+
+.goods_name_row .goods_name {
+    flex: 4;
+    color: #000;
+    font-size: 30rpx;
+    padding: 0 10rpx;
+    display: -webkit-box;
+    overflow: hidden;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+}
+
+.goods_name_row .goods_collect {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-left: 1rpx solid #000;
+}
+
+.goods_details_title {
+    font-size: 32rpx;
+    color: #eb4506;
+    font-weight: 600;
+    padding: 20rpx;
+}
+
+.icon-shoucang-copy {
+    color: orangered;
+}
+
+.btm_tool {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 90rpx;
+    display: flex;
+    border-top: 1rpx solid #ccc;
+    background-color: #fff;
+}
+
+.btm_tool .tool_item {
+    position: relative;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 22rpx;
+}
+
+.btm_tool .tool_item button {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+}
+
+.btm_tool .btn_cart {
+    flex: 2;
+    background-color: #ffa500;
+    color: #fff;
+    font-size: 30rpx;
+    font-weight: 600;
+}
+
+.btm_tool .btn_buy {
+    flex: 2;
+    background-color: #eb4450;
+    color: #fff;
+    font-size: 30rpx;
+    font-weight: 600;
+}

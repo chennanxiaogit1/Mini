@@ -1,0 +1,56 @@
+.cates_container {
+    height: calc(100vh - 90rpx);
+    display: flex;
+}
+
+.left_meun {
+    flex: 2;
+}
+
+.left_meun .meun_item {
+    height: 80rpx;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30rpx;
+}
+
+.right_meun {
+    flex: 5;
+    display: flex;
+    flex-direction: column;
+}
+
+.goods_title {
+    height: 80rpx;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30rpx;
+}
+
+.goods_list {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.goods_list navigator {
+    width: 33.33%;
+    padding: 5rpx;
+    text-align: center;
+
+}
+
+.goods_list navigator .goods_name {
+    text-align: center;
+}
+
+.goods_list navigator image {
+    width: 100%;
+}
+
+.active {
+    color: #eb4450;
+    border-left: 5rpx solid #eb4450;
+}

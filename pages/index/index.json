@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "Tab":"../../components/Tab/Tab"
+  },
+  "navigationBarTitleText": "优购首页"
+}

@@ -1,0 +1,1 @@
+<button open-type="getUserInfo" bindgetuserinfo="handleUserInfo" plain type="primary">获取权限</button>
